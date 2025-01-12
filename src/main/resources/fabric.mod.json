@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dansrandoms",
+	"version": "${version}",
+	"name": "Dan's Randoms",
+	"description": "This is a little mod adding some features that I, Dan, miss in MC.",
+	"authors": [
+		"Dan 'Dandadin' Simanek"
+	],
+	"contact": {
+		"homepage": "https://dandadin.eu/",
+		"sources": "https://github.com/dandadin/dansrandoms"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dansrandoms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"eu.dandadin.dansrandoms.DansRandoms"
+		],
+		"fabric-datagen": [
+			"eu.dandadin.dansrandoms.DansRandomsDataGenerator"
+		],
+		"client": [
+			"eu.dandadin.dansrandoms.DansRandomsClient"
+		]
+	},
+	"mixins": [
+		"dansrandoms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
