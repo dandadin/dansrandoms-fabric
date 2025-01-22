@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:string",
+    "E": "dansrandoms:empty_egg",
+    "%": "minecraft:water_bucket",
+    "$": "minecraft:rotten_flesh"
+  },
+  "pattern": [
+    "SS%",
+    "SES",
+    "$SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:drowned_spawn_egg"
+  }
+}

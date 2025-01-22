@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:string",
+    "E": "dansrandoms:empty_egg",
+    "%": "minecraft:gold_ingot",
+    "$": "minecraft:rotten_flesh"
+  },
+  "pattern": [
+    "SS%",
+    "SES",
+    "$SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:zombified_piglin_spawn_egg"
+  }
+}

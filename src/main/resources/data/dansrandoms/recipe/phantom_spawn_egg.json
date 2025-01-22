@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:string",
+    "E": "dansrandoms:empty_egg",
+    "%": "minecraft:membrane",
+    "$": "minecraft:black_wool"
+  },
+  "pattern": [
+    "SS%",
+    "SES",
+    "$SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:phantom_spawn_egg"
+  }
+}

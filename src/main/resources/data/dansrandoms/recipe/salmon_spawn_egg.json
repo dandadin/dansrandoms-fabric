@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:string",
+    "E": "dansrandoms:empty_egg",
+    "%": "minecraft:salmon",
+    "$": "minecraft:water_bucket"
+  },
+  "pattern": [
+    "SS%",
+    "SES",
+    "$SS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:salmon_spawn_egg"
+  }
+}
