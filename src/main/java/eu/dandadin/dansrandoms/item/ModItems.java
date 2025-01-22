@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DansRandoms.MOD_ID, "pink_garnet")))));
+    public static final Item EMPTY_EGG = registerItem("empty_egg", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DansRandoms.MOD_ID, "empty_egg")))));
 
 
     private static Item registerItem(String name, Item item) {
@@ -24,6 +25,9 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(EMPTY_EGG);
         });
     }
 }
