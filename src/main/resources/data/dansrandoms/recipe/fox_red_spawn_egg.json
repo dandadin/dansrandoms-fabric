@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:fox_spawn_egg",
+    "D": "minecraft:red_dye"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:fox_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'fox', 'Type':\"red\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a red (forest) fox.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
