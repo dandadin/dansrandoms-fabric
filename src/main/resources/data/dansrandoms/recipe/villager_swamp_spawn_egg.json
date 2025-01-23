@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:villager_spawn_egg",
+    "D": "minecraft:mud"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:villager_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'villager', 'type':\"swamp\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a swamp villager.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

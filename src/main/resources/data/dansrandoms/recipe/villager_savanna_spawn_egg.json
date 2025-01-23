@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:villager_spawn_egg",
+    "D": "minecraft:acacia_sapling"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:villager_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'villager', 'type':\"savanna\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a savanna villager.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

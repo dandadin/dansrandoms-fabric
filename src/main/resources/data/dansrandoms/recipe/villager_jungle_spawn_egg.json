@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:villager_spawn_egg",
+    "D": "minecraft:jungle_sapling"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:villager_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'villager', 'type':\"jungle\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a jungle villager.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
