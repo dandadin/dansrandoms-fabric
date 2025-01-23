@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:cat_spawn_egg",
+    "D": "minecraft:white_dye"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cat_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'cat', 'variant':\"white\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a white (white) cat.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:cat_spawn_egg",
+    "T": "minecraft:gray_dye",
+    "B": "minecraft:light_gray_dye"
+  },
+  "pattern": [
+    "T",
+    "E",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cat_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'cat', 'variant':\"siamese\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a siamese (gray and dark gray) cat.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

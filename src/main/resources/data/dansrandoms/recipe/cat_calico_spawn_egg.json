@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:cat_spawn_egg",
+    "T": "minecraft:orange_dye",
+    "B": "minecraft:white_dye"
+  },
+  "pattern": [
+    "T",
+    "E",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cat_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'cat', 'variant':\"calico\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a calico (white, ginger and gray) cat.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

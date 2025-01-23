@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:cat_spawn_egg",
+    "T": "minecraft:white_dye",
+    "B": "minecraft:light_gray_dye"
+  },
+  "pattern": [
+    "T",
+    "E",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cat_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'cat', 'variant':\"ragdoll\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a ragdoll (white with gray socks) cat.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
