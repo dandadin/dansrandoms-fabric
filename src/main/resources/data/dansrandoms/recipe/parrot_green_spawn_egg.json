@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:parrot_spawn_egg",
+    "D": "minecraft:lime_dye"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:parrot_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'parrot', 'Variant':2}",
+      "lore": ["[{\"text\":\"This egg will spawn a green (lime) parrot.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:parrot_spawn_egg",
+    "T": "minecraft:cyan_dye",
+    "B": "minecraft:yellow_dye"
+  },
+  "pattern": [
+    "T",
+    "E",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:parrot_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'parrot', 'Variant':3}",
+      "lore": ["[{\"text\":\"This egg will spawn a cyan (yellow body, cyan wings) parrot.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
