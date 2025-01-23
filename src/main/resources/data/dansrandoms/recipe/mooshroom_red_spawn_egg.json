@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:mooshroom_spawn_egg",
+    "D": "minecraft:red_mushroom"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:mooshroom_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'mooshroom', 'Type':\"red\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a red mooshroom.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
