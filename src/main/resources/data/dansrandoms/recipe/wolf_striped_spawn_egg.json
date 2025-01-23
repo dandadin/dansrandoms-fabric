@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:wolf_spawn_egg",
+    "T": "minecraft:black_dye",
+    "B": "minecraft:brown_dye"
+  },
+  "pattern": [
+    "T",
+    "E",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wolf_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'wolf', 'variant':\"striped\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a striped (black and brown) dog.\", \"color\":\"gray\"}]"]
+    }
+  }
+}

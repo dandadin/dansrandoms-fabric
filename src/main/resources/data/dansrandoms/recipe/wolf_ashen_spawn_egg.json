@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:wolf_spawn_egg",
+    "T": "minecraft:gray_dye",
+    "B": "minecraft:white_dye"
+  },
+  "pattern": [
+    "T",
+    "E",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wolf_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'wolf', 'variant':\"ashen\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a ashen (gray with white belly) dog.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
