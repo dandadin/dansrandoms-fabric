@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "@": "#dansrandoms:mushrooms",
-    "#": "dansrandoms:grass_block"
+    "#": "minecraft:grass_block"
   },
   "pattern": [
     "@@@",
