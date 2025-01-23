@@ -5,7 +5,7 @@
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
     "%": "minecraft:rotten_flesh",
-    "$": "minecraft:grass"
+    "$": "minecraft:grass_block"
   },
   "pattern": [
     "SS%",

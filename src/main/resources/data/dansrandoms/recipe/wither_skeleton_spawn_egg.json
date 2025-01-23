@@ -4,12 +4,13 @@
   "key": {
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
-    "%": "minecraft:wither_skull"
+    "%": "minecraft:wither_skeleton_skull",
+    "$": "minecraft:bone"
   },
   "pattern": [
     "SS%",
     "SES",
-    "%SS"
+    "$SS"
   ],
   "result": {
     "count": 1,

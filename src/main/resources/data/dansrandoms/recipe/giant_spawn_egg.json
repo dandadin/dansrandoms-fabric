@@ -14,6 +14,10 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:giant_spawn_egg"
+    "id": "minecraft:zombie_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'giant'}",
+      "lore": ["[{\"text\":\"This egg will spawn a giant.\", \"color\":\"gray\"}]"]
+    }
   }
 }

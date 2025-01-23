@@ -4,7 +4,7 @@
   "key": {
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
-    "%": "minecraft:scute",
+    "%": "minecraft:turtle_scute",
     "$": "minecraft:sand"
   },
   "pattern": [

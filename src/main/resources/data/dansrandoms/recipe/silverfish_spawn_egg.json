@@ -5,7 +5,7 @@
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
     "%": "minecraft:stone",
-    "$": "minecraft:stone_brick"
+    "$": "minecraft:stone_bricks"
   },
   "pattern": [
     "SS%",

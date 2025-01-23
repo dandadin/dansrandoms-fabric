@@ -5,7 +5,7 @@
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
     "%": "minecraft:kelp",
-    "$": "minecraft:boat"
+    "$": "#minecraft:boats"
   },
   "pattern": [
     "SS%",

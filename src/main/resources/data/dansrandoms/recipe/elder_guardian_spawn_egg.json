@@ -4,7 +4,7 @@
   "key": {
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
-    "%": "minecraft:prismarine_crystal",
+    "%": "minecraft:prismarine_crystals",
     "$": "minecraft:prismarine_shard"
   },
   "pattern": [
