@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:axolotl_spawn_egg",
+    "D": "minecraft:blue_dye"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:axolotl_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'axolotl', 'Variant':4}",
+      "lore": ["[{\"text\":\"This egg will spawn a blue axolotl.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
