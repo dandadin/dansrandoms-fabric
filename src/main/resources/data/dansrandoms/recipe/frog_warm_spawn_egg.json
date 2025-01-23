@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:frog_spawn_egg",
+    "D": "minecraft:light_gray_dye"
+  },
+  "pattern": [
+    "D",
+    "E",
+    "D"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:frog_spawn_egg",
+    "components": {
+      "entity_data": "{'id': 'frog', 'Type':\"warm\"}",
+      "lore": ["[{\"text\":\"This egg will spawn a warm (light gray) frog.\", \"color\":\"gray\"}]"]
+    }
+  }
+}
