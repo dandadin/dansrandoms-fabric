@@ -4,7 +4,7 @@
   "key": {
     "S": "minecraft:string",
     "E": "dansrandoms:empty_egg",
-    "%": "minecraft:lapis_lazuli",
+    "%": "minecraft:stick",
     "$": "minecraft:emerald"
   },
   "pattern": [
