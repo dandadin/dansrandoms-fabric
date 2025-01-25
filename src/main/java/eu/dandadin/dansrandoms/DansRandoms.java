@@ -1,5 +1,6 @@
 package eu.dandadin.dansrandoms;
 
+import eu.dandadin.dansrandoms.block.ModBlocks;
 import eu.dandadin.dansrandoms.item.ModItems;
 import eu.dandadin.dansrandoms.potion.ModPotions;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +20,7 @@ public class DansRandoms implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModPotions.registerModPotions();
+		ModBlocks.registerModBlocks();
 
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.IRON_PICKAXE, ModPotions.HASTE_POTION);

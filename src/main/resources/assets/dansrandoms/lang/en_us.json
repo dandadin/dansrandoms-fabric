@@ -17,5 +17,8 @@
   "item.minecraft.lingering_potion.effect.long_strong_haste_potion": "Lingering Potion of Haste",
   "item.minecraft.tipped_arrow.effect.long_strong_haste_potion": "Tipped Arrow of Haste",
   "effect.minecraft.haste": "Haste",
-  "item.dansrandoms.empty_egg": "Empty Egg"
+  "item.dansrandoms.empty_egg": "Empty Egg",
+  "item.dansrandoms.diamond_rod": "Diamond Rod",
+  "block.dansrandoms.diamond_bars": "Diamond Bars",
+  "item.dansrandoms.diamond_bars": "Diamond Bars"
 }

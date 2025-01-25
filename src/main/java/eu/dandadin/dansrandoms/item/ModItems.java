@@ -14,6 +14,8 @@ public class ModItems {
 
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DansRandoms.MOD_ID, "pink_garnet")))));
     public static final Item EMPTY_EGG = registerItem("empty_egg", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DansRandoms.MOD_ID, "empty_egg")))));
+    public static final Item DIAMOND_ROD = registerItem("diamond_rod", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(DansRandoms.MOD_ID, "diamond_rod")))));
+
 
     private static <T extends Item> T registerItem(String name, T item) {
         return Registry.register(Registries.ITEM, Identifier.of(DansRandoms.MOD_ID, name), item);
@@ -27,6 +29,9 @@ public class ModItems {
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(EMPTY_EGG);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(DIAMOND_ROD);
         });
     }
 }
